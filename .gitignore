@@ -1,15 +1,15 @@
-# Ambiente virtual
+# ==== Ambiente virtual ====
 .venv/
 venv/
 env/
 
-# Cache Python
+# ==== Cache Python ====
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Banco de dados SQLite
+# ==== Banco de dados SQLite ====
 *.db
 *.sqlite3
 *.sqlite
@@ -17,17 +17,27 @@ __pycache__/
 *.db-shm
 *.db-wal
 
-# Arquivos temporários
+# ==== Arquivos temporários / logs ====
 *.log
 *.tmp
 
-# Configurações locais do VS Code
+# ==== Configurações locais VS Code ====
 .vscode/
 
-# Arquivos do sistema
+# ==== Sistema operacional ====
 .DS_Store
 Thumbs.db
 
-# Arquivos de build ou temporários
+# ==== Build / distribuição ====
 dist/
 build/
+
+# ==== Relatórios do Robot Framework ====
+# (logs, relatórios e screenshots gerados automaticamente)
+tests/robot/output/
+output.xml
+log.html
+report.html
+*.png
+*.jpg
+*.jpeg
